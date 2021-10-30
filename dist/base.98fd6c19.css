@@ -240,6 +240,10 @@ a:focus {
 	justify-content: space-between;
 }
 
+a {
+	text-decoration: none;
+}
+
 .fa:hover, .fab:hover {
 	color: red;
 }
