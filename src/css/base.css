@@ -223,10 +223,12 @@ a:focus {
 	border: 16px solid white;
 	border-radius: 50%;
 	z-index: 10;
+	animation-name: profile_img;
+	animation-duration: 4s;
 }
 
 .profile_body {
-	min-width: 260px;
+	width: 100%;
 	min-height: 300px;
 	padding: 80px 30px 30px;
 	margin-top: -100px;
@@ -259,6 +261,19 @@ a:focus {
 	flex-direction: column;
 	align-items: center;
 	text-align: center;
+	min-width: 260px;
+	animation-name: content-width;
+	animation-duration: 4s;
+}
+
+@keyframes profile_img {
+	from {width: 100px;}
+	to {width: 160px;}
+}
+
+@keyframes content-width {
+	from {min-width: 160px;}
+	to {min-width: 260px;}
 }
 
 .body_information {
