@@ -218,8 +218,8 @@ a:focus {
 }
 
 .profile_img {
-	width: 160px;
-	height: 160px;
+	width: 120px;
+	height: 120px;
 	border: 16px solid white;
 	border-radius: 50%;
 	z-index: 10;
@@ -229,9 +229,9 @@ a:focus {
 
 .profile_body {
 	width: 100%;
-	min-height: 300px;
-	padding: 80px 30px 30px;
-	margin-top: -100px;
+	min-height: 350px;
+	padding: 60px 30px 30px;
+	margin-top: -80px;
 	border-radius: 60px;
 	background-color: white;
 	z-index: 9;
@@ -240,7 +240,7 @@ a:focus {
 	justify-content: space-between;
 }
 
-.fa:hover {
+.fa:hover, .fab:hover {
 	color: red;
 }
 
@@ -267,8 +267,8 @@ a:focus {
 }
 
 @keyframes profile_img {
-	from {width: 100px;}
-	to {width: 160px;}
+	from {width: 80px;}
+	to {width: 120px;}
 }
 
 @keyframes content-width {
