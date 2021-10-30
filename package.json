@@ -12,6 +12,7 @@
   "keywords": [],
   "author": "Koichi Noda",
   "dependencies": {
+    "bootstrap": "^5.1.3",
     "gsap": "^3.3.1",
     "imagesloaded": "^4.1.4",
     "parcel-bundler": "^1.12.4"

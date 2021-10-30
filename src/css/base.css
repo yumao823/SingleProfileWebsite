@@ -217,13 +217,52 @@ a:focus {
  	grid-area: 37 / 39 / 48 / 47;
 }
 
+.profile_img {
+	width: 160px;
+	height: 160px;
+	border: 16px solid white;
+	border-radius: 50%;
+	z-index: 10;
+}
+
+.profile_body {
+	min-width: 260px;
+	min-height: 300px;
+	padding: 80px 30px 30px;
+	margin-top: -100px;
+	border-radius: 60px;
+	background-color: white;
+	z-index: 9;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+.fa:hover {
+	color: red;
+}
+
+.social_icons {
+	display: flex;
+	justify-content: space-around;
+	margin-top: auto;
+}
+
 .content__title {
 	font-family: bely-display, sans-serif;
 	font-weight: 400;
-	font-size: 10vw;
+	font-size: 26px;
 	margin: 0;
 	line-height: 1;
 	position: relative;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	text-align: center;
+}
+
+.body_information {
+	font-size: 15px;
 }
 
 .content__title-sub {
