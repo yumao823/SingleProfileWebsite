@@ -223,8 +223,6 @@ a:focus {
 	border: 16px solid white;
 	border-radius: 50%;
 	z-index: 10;
-	animation-name: profile_img;
-	animation-duration: 4s;
 }
 
 .profile_body {
@@ -267,18 +265,23 @@ a {
 	align-items: center;
 	text-align: center;
 	min-width: 260px;
-	animation-name: content-width;
-	animation-duration: 4s;
+	animation: load_profile 1.5s;
 }
 
-@keyframes profile_img {
-	from {width: 80px;}
-	to {width: 120px;}
+@keyframes load_profile {
+	from {
+		opacity: 0;
+		transform: scale3d(0.5,0.5,1);
+	}
+	to {
+		opacity: 1;
+		transform: scale3d(1,1,1);
+	}
 }
 
-@keyframes content-width {
-	from {min-width: 160px;}
-	to {min-width: 260px;}
+@keyframes title {
+	from{opacity: 0};
+	to{opacity: 1;}
 }
 
 .body_information {
