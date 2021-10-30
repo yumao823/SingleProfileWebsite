@@ -256,8 +256,8 @@ a {
 }
 
 .content__title {
-	font-family: bely-display, sans-serif;
-	font-weight: 400;
+	font-family: 'Courier New', Courier, monospace;
+	font-weight: bold;
 	font-size: 26px;
 	margin: 0;
 	line-height: 1;
